@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website showcasing my web development skills, projects, and contact information.">
+    <title>Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico"> <!-- Add favicon -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1500x600') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .hero h1, .hero p {
+            margin-bottom: 20px;
+        }
+        .about img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #007bff;
+        }
+        .skills .progress-bar {
+            background-color: #28a745; /* Green color for progress bars */
+        }
+        .projects .card {
+            border: none;
+            border-radius: 15px;
+        }
+        .projects .card img {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #17a2b8; /* Light blue color for links */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section >
+    <div class="container">
+        <h1>Welcome to my profile...
+            <b>I'm Diya sharma</h1>
+        <p>Web Developer | Designer | Programmer</p>
+        <a href="#contact" class="btn btn-warning">Hire Me</a>
+        <img src="w.d 2.png" height="225" width="225"/></div>
+</section>
+
+<!-- About Me Section -->
+<section class="about bg-light p-5" id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="w.d project.jpg" height="150" width="300"/>
+            </div>
+            <div class="col-md-8">
+                <p>
+                    I’m a web developer who loves making websites that look great and work well. I have experience with both front-end and back-end development, so I can build complete, user-friendly solutions. I enjoy turning ideas into interactive websites and apps that are easy to use. My goal is to create digital experiences that are not only visually appealing but also technically strong. Whether it’s starting a new project or improving an existing one, I’m focused on delivering high-quality results that meet users’ needs and expectations.I am a passionate web developer with a love for creating beautiful and functional websites. With a strong background in front-end and back-end development, I strive to build solutions that are both innovative and user-friendly.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills bg-info text-white p-5">
+    <div class="container">
+        <h2>My Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>HTML</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4>CSS</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects bg-light p-5" id="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">A web app built with HTML, CSS, and JavaScript. This project demonstrates my ability to create interactive and user-friendly interfaces.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+
+</section>
+
+<!-- Contact Section -->
+<section class="contact bg-light p-5" id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-4">
+    <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    <a href="#" class="text-white me-2">LinkedIn</a>
+    <a href="#" class="text-white">GitHub</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
