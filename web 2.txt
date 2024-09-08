@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+        }
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+            width: 100%;
+        }
+        .product-img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .card-img-top {
+            height: 250px;
+            object-fit: cover;
+        }
+        .card-body {
+            padding: 1.25rem;
+        }
+        .header-img {
+            width: 100%;
+            height: 300px; /* Set height to 300px */
+            object-fit: contain; /* Ensures the entire image is visible without cropping */
+        }
+        .section-heading {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">MyShop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cart.html">Cart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Header Image -->
+<div class="container">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/008/974/544/small_2x/e-commerce-set-icon-symbol-template-for-graphic-and-web-design-collection-logo-illustration-vector.jpg" class="header-img" alt="E-commerce Icons">
+</div>
+
+<!-- Product Section Heading -->
+<div class="container mt-4">
+    <h2 class="section-heading">Products</h2>
+
+    <!-- Product Images Section -->
+    <div class="row">
+        <!-- Product 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../w.d project/sush product.jpg" class="card-img-top" alt="Smartwatch Series 6">
+                <div class="card-body">
+                    <h5 class="card-title">Smartwatch Series 6</h5>
+                    <p class="card-text">$19.99</p>
+                    <p class="card-text">Experience the ultimate in wearable technology with the Smartwatch Series 6. Designed to keep you connected, motivated, and informed, this smartwatch combines cutting-edge technology with sleek design.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../w.d project/pro 5.jpg" class="card-img-top" alt="Luxe Glam Designer Makeup Pouch">
+                <div class="card-body">
+                    <h5 class="card-title">Luxe Glam Designer Makeup Pouch</h5>
+                    <p class="card-text">$59.99</p>
+                    <p class="card-text">Elevate your beauty routine with the Luxe Glam Designer Makeup Pouch, where high fashion meets ultimate functionality. Designed for the modern individual who values both style and practicality, this elegant pouch keeps your cosmetics organized and accessible while making a statement.</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../w.d project/prod 3.jpg" class="card-img-top" alt="Radiance Boost Beauty Serum">
+                <div class="card-body">
+                    <h5 class="card-title">Radiance Boost Beauty Serum</h5>
+                    <p class="card-text">$39.99</p>
+                    <p class="card-text">Illuminate your natural beauty with our Radiance Boost Beauty Serum. Formulated with a blend of advanced skincare ingredients, this luxurious serum delivers a powerful dose of nutrients to revitalize your skin and reveal a luminous, youthful glow.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../w.d project/pro 4.jpg" class="card-img-top" alt="LuxeWrite Fountain Pen">
+                <div class="card-body">
+                    <h5 class="card-title">LuxeWrite Fountain Pen</h5>
+                    <p class="card-text">$49.99</p>
+                    <p class="card-text">Experience the art of writing with the LuxeWrite Fountain Pen, where elegance meets functionality. Crafted for those who appreciate the finer things in life, this pen combines timeless design with modern precision to deliver an unparalleled writing experience.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-md-4">
+            <div class="card">
+
+                <img src="../w.d project/sush pro 2.jpg" height="250" width="275"/>
+                <div class="card-body">
+                    <h5 class="card-title">Product 2</h5>
+                    <p class="card-text">$29.99</p>
+                    <p class="card-text">Unlock the secret to radiant, healthy skin with the GlowSmart Watch Series 6. Designed with innovative features to complement your skincare routine, this smartwatch is more than just a timepiece—it’s a personal skincare assistant that helps you achieve a glowing complexion.</p>
+                </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
